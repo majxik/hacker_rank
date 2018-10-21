@@ -7,8 +7,10 @@ import sys
 #read input comment for testing
 #n = int(input().strip())
 
+#Test Collection
 test_arr = [[1,"Weird"],[2,"Not Weird"],[3,"Weird"],[4,"Not Weird"],[5,"Weird"],[6,"Weird"],[20,"Weird"],[22,"Not Weird"]]
 
+#Method which will decide if number is weird or not
 def decide(n):
     if n % 2 == 1:
         print("Weird")
